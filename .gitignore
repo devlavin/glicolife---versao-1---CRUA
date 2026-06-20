@@ -10,10 +10,6 @@ apresentacao/
 # Uploads de usuários
 uploads/
 
-# Banco de dados exportado
-*.sql
-bancodedados/
-
 # Logs
 *.log
 
