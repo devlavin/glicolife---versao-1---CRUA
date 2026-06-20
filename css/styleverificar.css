@@ -1,0 +1,134 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 20px;
+    background: linear-gradient(135deg, #f0f7f4 0%, #e3f2ec 60%, #dceef9 100%);
+}
+
+.logo {
+    margin-bottom: 24px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border: 1px solid #d4e8df;
+    border-radius: 20px;
+    padding: 36px;
+    box-shadow: 0 8px 32px rgba(26, 158, 122, 0.08);
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a2e25;
+    margin-bottom: 4px;
+}
+
+.card-sub {
+    font-size: 13px;
+    color: #6a8e80;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.email-destino {
+    display: inline-block;
+    background: #f0faf6;
+    border: 1px solid #d4e8df;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #1a9e7a;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.erro-msg {
+    background: rgba(239, 68, 68, 0.07);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: #dc2626;
+    font-size: 13px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.otp-row {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.otp-row input {
+    width: 46px;
+    height: 56px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    border: 1.5px solid #d4e8df;
+    border-radius: 12px;
+    background: #f8fdfb;
+    color: #1a2e25;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.otp-row input:focus {
+    border-color: #1a9e7a;
+    background: #f0faf6;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 14px;
+    background: #1a9e7a;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: inherit;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background: #158a6a;
+}
+
+.btn-primary:disabled {
+    background: #a0c9bc;
+    cursor: not-allowed;
+}
+
+.timer {
+    text-align: center;
+    font-size: 12px;
+    color: #8aab9e;
+    margin-top: 12px;
+}
+
+.extra {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #6a8e80;
+}
+
+.extra a {
+    color: #1a9e7a;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}

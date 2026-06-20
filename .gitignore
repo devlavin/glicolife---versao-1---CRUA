@@ -1,0 +1,27 @@
+# Configuração local com segredos — NUNCA versionar
+config.php
+
+# Dependências
+vendor/
+dompdf-3.1.5/
+PHPMailer-7.0.2/
+banco/
+apresentacao/
+
+# Uploads de usuários
+uploads/
+
+# Banco de dados exportado
+*.sql
+bancodedados/
+
+# Logs
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

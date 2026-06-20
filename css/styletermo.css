@@ -1,0 +1,204 @@
+body {
+    background: linear-gradient(135deg, #f0f7f4 0%, #e3f2ec 60%, #dceef9 100%);
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+.termos-hero {
+    background: linear-gradient(135deg, #0d2218 0%, #1a4d30 60%, #1d6e4f 100%);
+    padding: 52px 20px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.termos-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 60% 80% at 80% 20%, rgba(34, 200, 150, 0.18) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 60% at 10% 90%, rgba(34, 200, 150, 0.10) 0%, transparent 55%);
+}
+
+.termos-hero::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: #f0f7f4;
+    clip-path: ellipse(55% 100% at 50% 100%);
+}
+
+.termos-hero-logo {
+    position: relative;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.termos-hero-logo a {
+    text-decoration: none;
+}
+
+.termos-hero-logo .glico {
+    color: #1a9e7a;
+}
+
+.termos-hero-logo .life {
+    color: #3a7bd5;
+}
+
+.termos-hero h1 {
+    position: relative;
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.termos-hero p {
+    position: relative;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.termos-wrap {
+    max-width: 780px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.termos-card {
+    background: #ffffff;
+    border: 1px solid #d4e8df;
+    border-radius: 20px;
+    padding: 40px 48px;
+    box-shadow: 0 8px 32px rgba(26, 158, 122, 0.08);
+    margin-bottom: 20px;
+}
+
+.termos-atualizado {
+    font-size: 12px;
+    color: #8aab9e;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.termos-atualizado::before {
+    content: '📅';
+}
+
+.termos-aviso {
+    background: rgba(26, 158, 122, 0.07);
+    border: 1px solid rgba(26, 158, 122, 0.2);
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-size: 14px;
+    color: #1a4d30;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.termos-aviso strong {
+    color: #1a9e7a;
+}
+
+.termos-secao {
+    margin-bottom: 32px;
+}
+
+.termos-secao h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a2e25;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.termos-secao h2 .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: rgba(26, 158, 122, 0.1);
+    border-radius: 8px;
+    font-size: 13px;
+    color: #1a9e7a;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+
+.termos-secao p {
+    font-size: 14px;
+    color: #4a6e5e;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.termos-secao ul {
+    margin: 8px 0 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.termos-secao ul li {
+    font-size: 14px;
+    color: #4a6e5e;
+    line-height: 1.7;
+}
+
+.termos-divider {
+    height: 1px;
+    background: #e8f5f0;
+    margin: 28px 0;
+}
+
+.termos-assinatura {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.termos-assinatura p {
+    font-size: 13px;
+    color: #8aab9e;
+    margin-bottom: 4px;
+}
+
+.termos-assinatura strong {
+    font-size: 15px;
+    color: #1a2e25;
+}
+
+.termos-voltar {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.termos-voltar a {
+    font-size: 13px;
+    color: #8aab9e;
+    text-decoration: none;
+}
+
+.termos-voltar a:hover {
+    color: #1a9e7a;
+}
+
+@media (max-width: 600px) {
+    .termos-card {
+        padding: 28px 20px;
+    }
+
+    .termos-hero h1 {
+        font-size: 24px;
+    }
+}
