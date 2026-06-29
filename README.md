@@ -1,5 +1,7 @@
 # 🩸 GlicoLife
 
+PROJETO ORIGINAL JÁ DISPONIVEL NA WEB: glicolife.me/
+
 > Controle seu diabetes com leveza.
 
 GlicoLife é uma aplicação web voltada para pessoas com diabetes que precisam monitorar sua saúde no dia a dia. Com uma interface acessível e intuitiva, o sistema centraliza o controle de glicose, medicamentos, alimentação e hidratação em um só lugar — e ainda conta com a **Gotinha**, a mascote da plataforma, que acompanha o usuário com mensagens de incentivo.
